@@ -19,7 +19,7 @@ app.use(helmet({
     action: 'sameorigin'
   },
   referrerPolicy: {
-    policy: 'origin'
+    policy: 'same-origin'
   }
 }))
 
